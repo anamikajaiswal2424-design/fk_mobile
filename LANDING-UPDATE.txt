@@ -1,0 +1,12 @@
+Landing page update
+
+At /, the Kitchen landing page appears first.
+Click the Kitchen image or ENTER SHOP to show the existing shop at the same URL.
+Refreshing / shows the landing page again, matching the reference project.
+Product, cart, payment, and policy routes keep their existing behavior.
+The kitchen_category.jpg asset is bundled locally.
+
+Changed: src/App.js, src/App.test.js, src/pages/ShopLanding.js,
+src/pages/ShopLanding.css, public/kitchen_category.jpg, package-lock.json.
+
+Run npm install, then npm start for development or npm run build for deployment.
